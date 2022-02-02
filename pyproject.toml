@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "treebranch"
+version = "0.1.0"
+description = "Simple dialogue tree editor."
+authors = ["Chris Larabee <chris.larabee9@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Kivy = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+flake8-black = "^0.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
